@@ -13,11 +13,11 @@
 			<div class="left">
 				<ul class="main_ul">
 					<li><a href="depozit.php">Home</a></li>
-					<li><a href="#Stoc">Stoc</a></li>
-					<li><a href="#Info">Informatii produs</a></li>
-					<li><a href="#Adaugare">Adaugare</a></li>
-					<li><a href="#Predare">Predare</a></li>
-					<li><a href="#Contact">Contact</a></li>
+					<li><a href="stoc.php">Stoc</a></li>
+					<li><a href="info.php">Informatii produs</a></li>
+					<li><a href="add.php">Adaugare produs</a></li>
+					<li><a href="eliminate.php">Predare produs</a></li>
+					<li><a href="contact.php">Contact</a></li>
 				</ul>
 			</div>
 			
@@ -29,8 +29,8 @@
 					<li><b>Home</b> - sectiunea principala</li>
 					<li><b>Stoc</b> - vizualizare produse din stocul depozitului</li>
 					<li><b>Informatii produs</b> - unitate de masura, pret unitar, intrarile si iesirile din stoc si data</li>
-					<li><b>Adaugare</b> - inserare produs in baza de date</li>
-					<li><b>Predare</b> - eliminare produs din baza de date</li>
+					<li><b>Adaugare produs</b> - inserare produs in baza de date</li>
+					<li><b>Predare produs</b> - eliminare produs din baza de date</li>
 					<li><b>Contact</b> - informatii de contact autori</li>
 				</ul>
 			</div>
