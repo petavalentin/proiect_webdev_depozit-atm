@@ -2,15 +2,23 @@ div.container
 {
 	width:100%;
 	margin:0px;
-	border:1px solid gray;
+	border:1px solid #53868B;
 	line-height:150%; 
 }
 
-div.header,div.footer
+div.header
 {
-	padding:1em;
+	padding:2em;
 	color:white;
-	background-color:gray;
+	background-color:#53868B;
+	clear:left;
+}
+
+div.footer
+{
+	padding:0.5em;
+	color:white;
+	background-color:#53868B;
 	clear:left;
 }
 
@@ -23,7 +31,7 @@ h1.header
 div.left
 {
 	float:left;
-	width:160px;
+	width:180px;
 	margin:0;
 	padding:1em;
 }
@@ -31,12 +39,13 @@ div.left
 div.content
 {
 	margin-left:190px;
-	border-left:1px gray;
-	margin-bottom:325px;
+	border-left:1px #53868B;
+	//margin-bottom:325px;
+	min-height:450px; 
 	padding:1em;
 }
 
-ul
+ul.main_ul
 {
 	list-style-type:none;
 	margin:0;
@@ -48,8 +57,8 @@ a:link,a:visited
 	display:block;
 	font-weight:bold;
 	color:#FFFFFF;
-	background-color:gray;
-	width:160px;
+	background-color:#53868B;
+	width:180px;
 	text-align:center;
 	padding:4px;
 	text-decoration:none;
@@ -59,4 +68,9 @@ a:link,a:visited
 a:hover,a:active
 {
 	background-color:#282828 ;
+}
+
+.first_page
+{
+	font:15px arial,sans-serif;
 }
