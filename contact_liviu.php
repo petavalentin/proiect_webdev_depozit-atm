@@ -22,11 +22,33 @@
 			</div>
 			
 			<div class="content">
-				<h3 style="font: arial,sans-serif;">Autori:</h3>
-				<ul type="none">
-					<li>Hirtan Liviu  -  <a href="contact_liviu.php">liviuhirtan@yahoo.com</a> </li>
-					<li>Peta Valentin  -  <a href="contact_vali.php">petavalentin@yahoo.com</a> </li>
-				</ul>
+				<form method='post' action='contact_send.php'>
+					<table style="width: 300px">
+						<tr>
+							<td style="width: 50%"><label>To:</label></td>
+							<td style="width: 50%"><input name='email' type='text' value='liviuhirtan@yahoo.com' size="25"/></td>
+						</tr>
+						
+						<tr>
+							<td style="width: 50%"><label>Subject:</label></td>
+							<td style="width: 50%"><input name='subject' type='text' size="25"/></td>
+						</tr>
+						
+						<tr>
+							<td style="width: 50%"><label>From:</label></td>
+							<td style="width: 50%"><input name='from' type='text' size="25"/></td>
+						</tr>
+						
+						<tr>
+							<td style="width: 50%"><label>Message:</label></td>
+						</tr>
+					</table>
+								
+					<textarea name='message' rows='15' cols='40'>
+					</textarea><br />
+					
+					<input type='submit' value='Send' style='width:100px;'/>
+				</form>
 			</div>
 			
 			<div class="footer">
